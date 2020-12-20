@@ -45,11 +45,11 @@
 .featured-item.featured-style-two .featured-info .featured-title > span,
 .featured-item.featured-style-three .featured-info .featured-title > span,
 .bt-location-widget .widget-content ul > li a:hover,
-.intro-element .intro-social-text > a:hover,
+.intro-element .intro-socail-text > a:hover,
 .main-slider .single-slide .slide-icon,
 .site-header.header-style-five .header-right-area > div > a:hover, 
 .site-header.header-style-five .header-right-area > div > a:focus,
-.sidebar-menu-area .social-share > a:hover,
+.sidebar-menu-area .socail-share > a:hover,
 .gallery-item .popup-link,
 .tb-subscribe-widget.style-two .subscribe-form #mc-form #subscribe-btn,
 .frontpage-banner-section.frontpage-banner-style-four .frontpage-banner-content .banner-title,
@@ -95,10 +95,10 @@
 .widget_search.style-two .input-group .btn-search:hover,
 .home-blog-page .post .entry-user > a, 
 .blog-featured-block .post .entry-user > a,
-.home-blog-page .post .entry-footer .social-share a:focus, 
-.home-blog-page .post .entry-footer .social-share a:hover, 
-.blog-featured-block .post .entry-footer .social-share a:focus, 
-.blog-featured-block .post .entry-footer .social-share a:hover,
+.home-blog-page .post .entry-footer .socail-share a:focus, 
+.home-blog-page .post .entry-footer .socail-share a:hover, 
+.blog-featured-block .post .entry-footer .socail-share a:focus, 
+.blog-featured-block .post .entry-footer .socail-share a:hover,
 .site-header .search-wrap > .search-btn:hover,
 .newsletter-block.style-seven .subscribe-form .btn-default,
 .header-search-area form button:hover, .header-search-area form input[type="button"]:hover, 
@@ -147,7 +147,7 @@
 .chef-item .chef-thumbnail-area .social-status-area .social-status > a:hover, 
 .chef-item .chef-thumbnail-area .social-status-area .social-status > a:focus,
 .widget-business-hours .widget-content > ul li.closed > span,
-.intro-element .intro-social-share .social-share a:hover,
+.intro-element .intro-socail-share .socail-share a:hover,
 .bt-about-footer-widget .widget-content .about-info .social-status a:hover,
 .bt-about-footer-widget.style-three .widget-content .social-status a:hover,
 .section-title.style-five .title-sub,
@@ -155,7 +155,7 @@
 .main-slider.style-five .slide-caption .slider-subtitle,
 .our-product-block .product-food-item .food-title a:hover, 
 .our-product-block .product-food-item .food-title a:focus,
-.intro-element .intro-social-text > a:hover {
+.intro-element .intro-socail-text > a:hover {
 	color: #CA985A !important;
 }
 

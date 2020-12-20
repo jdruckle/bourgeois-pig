@@ -49,10 +49,10 @@
   
 
 .intro-element {
-    .intro-social-share {
+    .intro-socail-share {
         position: relative;
         @media only screen and (max-width: 575px) {
-            &:hover .social-share {
+            &:hover .socail-share {
                 opacity: 1 !important;
                 padding-top: 5px !important;
                 visibility: visible !important;
@@ -71,7 +71,7 @@
                 font-size: 14px;
                 border-radius: 50%;
                 cursor: pointer;
-                + .social-share {
+                + .socail-share {
                     padding-top: 20px;
                     position: absolute;
                     top: 100%;
@@ -85,7 +85,7 @@
                 }
             }
         }
-        .social-share a {
+        .socail-share a {
             font-size: 14px;
             display: inline-block;
             color: $white;
@@ -103,7 +103,7 @@
             }
         }
     }
-    .intro-social-text > a {
+    .intro-socail-text > a {
         font-weight: 500;
         display: inline-block;
         text-transform: capitalize;
@@ -297,7 +297,7 @@
                 }
             }
         }
-        .intro-social-share {
+        .intro-socail-share {
             padding-right: 10px;
             padding-left: 30px;
             @media only screen and (max-width: 1199px) {
@@ -307,7 +307,7 @@
             @media only screen and (max-width: 575px) {
                 display: none;
             }
-            .social-share a {
+            .socail-share a {
                 color: $black;
             }
         }
@@ -380,7 +380,7 @@
                     }
                 }
             }
-            .intro-social-share .social-share a {
+            .intro-socail-share .socail-share a {
                 color: $white;
             }
         }
@@ -430,7 +430,7 @@
                 margin-bottom: 0;
             }
             .mobile-social-share {
-                .intro-social-share {
+                .intro-socail-share {
                     display: none;
                     @media only screen and (max-width: 1199px) {
                         display: block;
@@ -496,7 +496,7 @@
                 -webkit-box-pack: center;
                     -ms-flex-pack: center;
                         justify-content: center;
-                .intro-social-share {
+                .intro-socail-share {
                     padding-right: 30px;
                     padding-left: 10px;
                     @media only screen and (max-width: 575px) {
@@ -1086,12 +1086,12 @@
                     }
                 }
             }
-            .intro-social-share {
+            .intro-socail-share {
                 padding-right: 25px;
                 @media only screen and (max-width: 1199px) {
                     display: none;
                 }
-                .social-share a {
+                .socail-share a {
                     color: $black;
                 }
             }
@@ -1169,7 +1169,7 @@
                 width: 80px;
             }
         }
-        &.intro-element .intro-social-share .share-alt + .social-share {
+        &.intro-element .intro-socail-share .share-alt + .socail-share {
             @media only screen and (max-width: 575px) {
                 left: auto;
                 right: 0;
@@ -1214,12 +1214,12 @@
             padding: 13px 30px 14px !important;
         }
         .header-right-area {
-            .intro-social-share {
+            .intro-socail-share {
                 padding-right: 25px;
                 @media only screen and (max-width: 1199px) {
                     display: none;
                 }
-                .social-share a {
+                .socail-share a {
                     color: $black;
                 }
             }
@@ -1298,7 +1298,7 @@
                 }
             }
         }
-        .intro-social-share {
+        .intro-socail-share {
             padding-right: 10px;
             padding-left: 30px;
             @media only screen and (max-width: 1199px) {
@@ -1308,7 +1308,7 @@
             @media only screen and (max-width: 575px) {
                 display: none;
             }
-            .social-share a {
+            .socail-share a {
                 color: $white;
             }
         }
@@ -1398,11 +1398,11 @@
                 display: flex;
             }
         }
-        .intro-social-share {
+        .intro-socail-share {
             @media only screen and (max-width: 767px) {
                 display: none;
             }
-            .social-share a {
+            .socail-share a {
                 color: $black;
             }
         }
@@ -1625,7 +1625,7 @@
         }
         &.header-style-one {
             padding: 10px 0;
-            .intro-social-share .social-share a {
+            .intro-socail-share .socail-share a {
                 color: $white;
             }
             .mainmenu {
