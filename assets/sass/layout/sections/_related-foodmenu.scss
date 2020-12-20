@@ -1,0 +1,52 @@
+.related-foodmenu-block {
+    .related-food-carousel {
+        margin-top: -10px;
+        @media only screen and (max-width: 991px) {
+            margin-top: -5px;
+        }
+    }
+    .food-grid-item.grid-style-three {
+        margin-bottom: 0;
+        .food-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-style: normal; 
+            font-weight: 700;
+            @media only screen and (max-width: 767px) {
+                font-size: 22px;
+            }
+        }
+        .food-price {
+            font-style: normal;
+            font-weight: normal;
+        }
+        .food-thumb {
+            margin-bottom: 13px;
+        }
+    }
+    &.style-two {
+        .related-food-carousel {
+            margin-top: 0px;
+        }
+        .food-grid-item.grid-style-three .food-thumb {
+            min-height: 235px;
+        }
+    }
+    &.style-three {
+        .food-grid-item.grid-style-three .food-thumb {
+            min-height: 225px;
+            @media only screen and (max-width: 1199px) {
+                min-height: 175px;
+            }
+            @media only screen and (max-width: 991px) {
+                min-height: 200px;
+            }
+            @media only screen and (max-width: 767px) {
+                min-height: 150px;
+            }
+            @media only screen and (max-width: 575px) {
+                min-height: auto;
+            }
+        }
+    }
+}

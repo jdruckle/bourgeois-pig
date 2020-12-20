@@ -1,0 +1,140 @@
+/*-------------------------------------------------------------------
+    [ ## Single Events ]
+*/
+.event.single-event {
+    margin-bottom: 60px;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    text-align: left;
+    .event-thumb {
+        position: relative;
+        &:before {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: -webkit-linear-gradient(bottom, $black, transparent);
+            background: linear-gradient(to top, $black, transparent);
+            opacity: 0.8;
+            @media only screen and (max-width: 767px) {
+                display: none;
+            }
+        }
+        .event-share-area {
+            position: absolute;
+            bottom: 20px;
+            left: 35px;
+            z-index: 2;
+            @media only screen and (max-width: 767px) {
+                left: 0px;
+                bottom: 0px;
+                position: relative;
+                padding-top: 25px;
+            }
+            h3 > span {
+                padding: 0;
+            }
+            .share span {
+                color: $white;
+            }
+        }
+    }
+    .entry-meta-content {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        font-size: 12px;
+        font-weight: normal;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        line-height: 1.4em;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        > div {
+            margin-right: 15px;
+            position: relative;
+            margin-bottom: 8px;
+            &:last-child {
+                margin-right: 0px;
+            }
+            [class*="fa-"] {
+                color: $color__primary;
+                position: relative;
+                top: -1px;
+                display: inline-block;
+                margin-right: 5px;
+            }
+            strong {
+                font-size: 14px;
+                color: $color__heading;
+                font-weight: normal;
+            }
+            a {
+                color: $color__primary;
+                &:hover,
+                &:focus {
+                    color: $color__heading;
+                }
+            }
+        }
+    }
+    .entry-title {
+        font-size: 42px;
+        line-height: 1.2em;
+        margin-bottom: 35px;
+        @media only screen and (max-width: 991px) {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        @media only screen and (max-width: 767px) {
+            font-size: 32px;
+        }
+        @media only screen and (max-width: 575px) {
+            font-size: 26px;
+        }
+    }
+    ul, ol {
+        li {
+            margin-top: 10px;
+            line-height: 1.6em;
+        }
+    }
+    > ul,
+    > ol {
+        padding-left: 20px;
+    }
+    table {
+        margin-bottom: 30px;
+    }
+    p {
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    iframe {
+        border: 0px solid;
+    }
+    figure {
+        margin-bottom: 30px;
+        @media only screen and (max-width: 767px) {
+            margin-bottom: 20px;
+        }
+        span {
+            color: #979797;
+            font-size: 12px;
+            display: block;
+            padding: 13px 0 25px;
+        }
+    }
+    .event-details {
+        padding: 0;
+    }
+}

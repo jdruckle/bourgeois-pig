@@ -1,0 +1,87 @@
+
+.single-chef-block {
+    .chef-thumbnail-area {
+        position: relative;
+        display: inline-block;
+        &:before {
+            width: calc(100% - 40px);
+            height: calc(100% - 40px);
+            border: 7px solid $color__primary;
+            position: absolute;
+            content: ""; 
+            top: 20px;
+            left: 20px;  
+            z-index: 2;
+            @media only screen and (max-width: 575px) {
+                width: calc(100% - 30px);
+                height: calc(100% - 30px);
+                border-width: 5px;
+                top: 15px;
+                left: 15px;  
+            }
+        }
+        .chef-thumb {
+            margin-bottom: 0;
+        }
+    }
+    .chef-info-block {
+        margin-bottom: 48px;
+        @media only screen and (max-width: 1199px) {
+            margin-bottom: 30px;
+        }
+        @media only screen and (max-width: 575px) {
+            margin-bottom: 25px;
+        }
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+        .heading18 {
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            @media only screen and (max-width: 1199px) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .chef-info {
+        .chef-name {
+            font-weight: 700;
+            font-family: $font_heading2;
+            margin-bottom: 0px;
+            font-size: 42px;
+            text-transform: uppercase;
+            line-height: 1.15em;
+            margin-top: -8px;
+            @media only screen and (max-width: 1199px) {
+                font-size: 32px;
+            }
+            @media only screen and (max-width: 575px) {
+                font-size: 26px;
+            }
+        }
+        .designation {
+            text-transform: uppercase;
+            color: $harley_davidson_orange;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            margin-bottom: 50px;
+            @media only screen and (max-width: 1199px) {
+                margin-bottom: 30px;
+                font-size: 20px;
+            }
+            @media only screen and (max-width: 575px) {
+                margin-bottom: 20px;
+                font-size: 16px;
+            }
+        }
+    }
+    .social-status {
+        padding-top: 5px;
+        > a {
+            width: 35px;
+            height: 35px;
+            line-height: 37px;
+            color: $color__heading;
+        }
+    }
+}

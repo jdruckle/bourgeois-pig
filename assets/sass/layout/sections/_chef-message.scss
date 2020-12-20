@@ -1,0 +1,40 @@
+
+.chef-message-block {
+    .chef-thumb {
+        margin-top: -60px;
+        position: relative;
+        z-index: 2;
+        text-align: right;
+        @media only screen and (max-width: 1199px) {
+            margin-top: 10px;
+        }
+        @media only screen and (max-width: 991px) {
+            display: none;
+        }
+    }
+    .message-content {
+        text-align: justify;
+        font-size: 16px;
+        padding-top: 30px;
+        @media only screen and (max-width: 1199px) {
+            padding-top: 10px;
+        }
+        .chef-sign {
+            padding-top: 20px;
+            @media only screen and (max-width: 1199px) {
+                padding-top: 10px;
+            }
+        }
+    }
+    &.style-two {
+        .message-content {
+            padding-top: 10px;
+            .chef-sign {
+                padding-top: 27px;
+                @media only screen and (max-width: 1199px) {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}

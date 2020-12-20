@@ -1,0 +1,410 @@
+/*-------------------------------------------------
+    [ ### Newsletter Block ]
+*/
+.newsletter-block {
+    &.style-one {
+        &:before {
+            opacity: 0.85;
+        }
+        .section-title.section-default-two {
+            margin-bottom: 0;
+            .title-main {
+                font-size: 50px;
+                padding-top: 5px;
+                margin-bottom: -5px;
+                @media only screen and (max-width: 1199px) {
+                    font-size: 40px;
+                }
+                > span {
+                    font-size: 90px;
+                    margin-bottom: -40px;
+                    @media only screen and (max-width: 1199px) {
+                        font-size: 75px;
+                        margin-bottom: -35px;
+                    }
+                }
+            }
+        }
+        .subscribe-form .btn-default {
+            &:hover {
+                background-color: $white;
+                color: $color__primary;
+            }
+        }
+    }
+    &.style-two,
+    &.style-four,
+    &.style-five,
+    &.style-six {
+        .subscribe-form {
+            > #mc-form {
+                width: 100%;
+                height: 70px;
+                background-color: rgba($white,0.06);
+                border-radius: 40px;
+                position: relative;
+                @media only screen and (max-width: 767px) {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                }
+                @media only screen and (max-width: 575px) {
+                    background-color: transparent;
+                    border-radius: 0;
+                    height: auto;
+                }
+                > #subscribe-btn {
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                            transform: translateY(-50%);
+                    right: 6px;
+                    @media only screen and (max-width: 575px) {
+                        position: relative;
+                        right: 0;
+                        -webkit-transform: translateY(0);
+                                transform: translateY(0);
+                        top: 0;
+                    }
+                }
+            }
+            .btn-default {
+                border-radius: 30px;
+                height: 58px;
+                padding: 5px 40px;
+                width: auto;
+                font-size: 16px;
+                margin-left: 0px;
+                text-transform: capitalize;
+                font-weight: 500;
+                letter-spacing: normal;
+                &:hover {
+                    background-color: $white;
+                    color: $color__primary;
+                }
+                @media only screen and (max-width: 575px) {
+                    margin: 20px auto 0;
+                    height: 52px;
+                    padding: 5px 30px;
+                    font-size: 14px;
+                }
+            }
+            .form-group {
+                -webkit-box-flex: 0;
+                    -ms-flex: 0 0 100%;
+                        flex: 0 0 100%;
+                padding: 0;
+                @media only screen and (max-width: 767px) {
+                    margin-bottom: 0;
+                }
+                input {
+                    width: 100%;
+                    border-bottom: 0px solid;
+                    padding: 15px 20px !important;
+                    @media only screen and (max-width: 767px) {
+                        padding: 15px !important;
+                    }
+                    @media only screen and (max-width: 575px) {
+                        height: 55px;
+                        background-color: rgba($white,0.06);
+                        border-radius: 40px;
+                        padding: 15px 25px !important;
+                    }
+                }
+            }
+        }
+    }
+    &.style-two {
+        text-align: center;
+        .newsletter-title .title-main {
+            font-style: italic;
+            font-size: 42px;
+            color: $white;
+            font-weight: 700;
+            font-family: $font_heading2;
+            > span {
+                color: $color__primary;
+            }
+            @media only screen and (max-width: 1199px) {
+                font-size: 40px;
+            }
+            @media only screen and (max-width: 991px) {
+                font-size: 36px;
+            }
+            @media only screen and (max-width: 575px) {
+                font-size: 30px;
+            }
+        }
+    }
+    &.style-three {
+        position: relative;
+        &:before {
+            opacity: 0.4;
+        }
+        .subscribe-form {
+            margin-left: 0;
+            margin-top: -5px;
+            @media only screen and (max-width: 575px) {
+                margin-right: 0;
+            }
+            > #mc-form {
+                display: block;
+                position: relative;
+                .form-group {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+            }
+            .btn-default {
+                border-radius: 0%;
+                height: auto;
+                width: auto;
+                margin-left: 0px;
+                position: absolute;
+                right: 0;
+                top: -1px;
+                background-color: transparent;
+                color: $color__primary;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    &.style-four {
+        .section-title.style-six {
+            .title-main {
+                font-weight: normal;
+                line-height: 1em;
+            }
+            .title-text {
+                padding-top: 0;
+            }
+        }
+    }
+    &.style-five {
+        padding: 100px 0 140px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        @media only screen and (max-width: 1199px) {
+            padding-bottom: 100px;
+        }
+        @media only screen and (max-width: 575px) {
+            padding-bottom: 80px;
+            padding-top: 80px;
+        }
+        .element-group > .element {
+            z-index: 1;
+            top: -25px;
+            left: calc(50% - 775px);
+            -webkit-animation: linear bt-leftRight-20 3s infinite;
+                    animation: linear bt-leftRight-20 3s infinite;
+            @media only screen and (max-width: 1450px) {
+                display: none;
+            }
+        }
+        .section-title.style-six {
+            .title-main {
+                font-weight: normal;
+                line-height: 1em;
+            }
+            .title-text {
+                font-size: 16px;
+                padding-top: 0;
+            }
+        }
+        .subscribe-form {
+            @media only screen and (max-width: 767px) {
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+        .subscribe-form > #mc-form {
+            border: 1px solid $color__border-one;
+            background-color: $white; 
+            @media only screen and (max-width: 575px) {
+                border: 0px solid;
+                background-color: transparent; 
+            }
+            .form-group input {
+                color: $black;
+                @media only screen and (max-width: 575px) {
+                    border: 1px solid $color__border-one;
+                    background-color: $white; 
+                }
+                &:focus {
+                    color: $black;
+                    @media only screen and (max-width: 575px) {
+                        border-color: $color__primary;
+                    }
+                }
+            }
+            #subscribe-btn {
+                background-color: $black;
+                &:hover,
+                &:focus {
+                    background-color: $color__primary !important;
+                    color: $white;
+                }
+            }
+        }
+    }
+    &.style-six {
+        .subscribe-form > #mc-form {
+            border: 1px solid $color__border-one;
+            background-color: #F6F6F6;
+            @media only screen and (max-width: 575px) {
+                border: 0px solid;
+                background-color: transparent;
+            }
+            .form-group input {
+                color: $black;
+                @media only screen and (max-width: 575px) {
+                    border: 1px solid $color__border-one;
+                    background-color: #F6F6F6;
+                }
+                &:focus {
+                    color: $black;
+                    @media only screen and (max-width: 575px) {
+                        border-color: $color__primary !important;
+                    }
+                }
+            }
+            #subscribe-btn {
+                &:hover,
+                &:focus {
+                    background-color: $black !important;
+                    color: $white;
+                }
+            }
+        }
+    }
+    &.style-seven {
+        position: relative;
+        .section-title.style-three {
+            margin-top: -8px;
+            margin-bottom: 35px;
+            .title-main {
+                font-size: 32px;
+                margin-bottom: 15px;
+                @media only screen and (max-width: 767px) {
+                    font-size: 24px;
+                }
+            }
+            .title-sub {
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
+        .subscribe-form {
+            margin-left: 0;
+            margin-top: -5px;
+            @media only screen and (max-width: 767px) {
+                margin-right: 0 !important; 
+            }
+            > #mc-form {
+                display: block;
+                position: relative;
+                .form-group {
+                    padding: 0;
+                    @media only screen and (max-width: 767px) {
+                        margin-bottom: 0 !important;
+                    }
+                    input {
+                        color: $black;
+                    }
+                }
+            }
+            .btn-default {
+                border-radius: 0%;
+                height: auto;
+                width: auto;
+                margin-left: 0px;
+                position: absolute;
+                right: 0;
+                top: -7px;
+                background-color: transparent;
+                color: $color__primary;
+                font-size: 24px;
+                &:hover {
+                    color: $black;
+                }
+            }
+        }
+    }
+    .subscribe-form {
+        font-size: 15px;
+        margin-top: 33px;
+        margin-left: -15px;
+        @media only screen and (max-width: 767px) {
+            margin-right: -15px;
+        }
+        > #mc-form {
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            @media only screen and (max-width: 767px) {
+                display: block;
+                text-align: center;
+            }
+        }
+        .form-group {
+            margin-bottom: 0px;
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 calc(50% - 40px);
+                    flex: 0 0 calc(50% - 40px);
+            padding: 0 15px;
+            @media only screen and (max-width: 767px) {
+                margin-bottom: 30px;
+            }
+            label {
+                display: block;
+                line-height: 1.2em;
+                margin-bottom: 0;
+                text-align: left;
+            }
+            input {
+                color: $white;
+                font-size: 14px;
+                position: relative;
+                width: 100%;
+                background-color: transparent;
+                border-bottom: 1px solid $color__border-one;
+                padding: 0 0 15px !important;
+                @media only screen and (max-width: 767px) {
+                    font-size: 15px;
+                }
+                &:focus {
+                    color: $white;
+                    border-bottom-color: $color__primary !important;
+                }
+            }
+            #mc-email-error {
+                display: none !important;
+            }
+        }
+        .btn-default {
+            border-radius: 50%;
+            height: 55px;
+            padding: 0;
+            width: 55px;
+            font-size: 18px;
+            margin-left: 20px;
+            @media only screen and (max-width: 767px) {
+                margin: 0px auto;
+                border-radius: 40px 0 40px 40px;
+                width: 120px;
+            }
+        }
+    }
+}

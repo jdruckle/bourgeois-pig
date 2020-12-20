@@ -1,0 +1,96 @@
+.event-calender-page-block {
+    .fc-center h2 {
+        font-size: 32px;
+        font-weight: 700;
+        font-family: $font_heading2;
+        font-style: italic;
+        margin-top: -10px;
+        @media only screen and (max-width: 767px) {
+            font-size: 28px;
+        }
+    }
+    .fc-icon-right-single-arrow:after {
+        content: "\f105";
+    }
+    .fc-icon-left-single-arrow:after {
+        content: "\f104";
+    }
+    .fc-icon-left-single-arrow:after,
+    .fc-icon-right-single-arrow:after {
+        font-family: $font-awesome-free;
+        font-size: 42px;
+        @media only screen and (max-width: 991px) {
+            font-size: 36px;
+        }
+        @media only screen and (max-width: 767px) {
+            font-size: 32px;
+        }
+    }
+    .fc-state-hover {
+        color: $color__primary;
+    }
+    .fc-view-container {
+        background-color: $white;
+        margin-top: 45px;
+        @media only screen and (max-width: 767px) {
+            margin-top: 30px;
+        }
+    }
+    .fc-ltr .fc-basic-view .fc-day-number {
+        border-bottom: 0px solid;
+        background-color: transparent;
+        font-size: 14px;
+        color: $color_text_main;
+        font-family: $font_body;
+        font-weight: normal;
+    }
+    .fc-other-month {
+        background-color: #FBFBFB;
+    }
+    .fc th {
+        font-size: 14px;
+        font-weight: normal;
+        color: $white;
+        background-color: #222222;
+        text-transform: capitalize;
+        line-height: 45px; 
+    }
+    .fc-day-grid-event {
+        background-color: $color__primary;
+        .fc-content {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: reverse;
+                -ms-flex-direction: column-reverse;
+                    flex-direction: column-reverse;
+            font-size: 14px;
+            color: $white;
+            font-family: $font_body;
+            font-weight: normal;
+            font-style: normal;
+            padding: 10px 8px;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            white-space: normal;
+            @media only screen and (max-width: 991px) {
+                font-size: 12px;
+                padding: 2px 4px;
+            }
+            @media only screen and (max-width: 767px) {
+                font-size: 12px;
+                padding: 0px 2px;
+            }
+            .fc-time {
+                font-weight: normal;
+                display: block;
+                margin-bottom: 5px;
+                width: 100%;
+            }
+            .fc-title {
+                display: block;
+            }
+        }
+    }
+}

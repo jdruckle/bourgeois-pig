@@ -1,0 +1,113 @@
+.special-food-block {
+    &:before {
+        opacity: 0.8;
+    }
+    .button-text-right {
+        text-align: right;
+        position: relative;
+        top: -55px;
+        @media only screen and (max-width: 991px) {
+            top: -50px;
+        }
+        @media only screen and (max-width: 767px) {
+            top: -10px;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+    }
+    .special-food-content {
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        position: relative;
+        margin-top: 10px;
+        @media only screen and (max-width: 1199px) {
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+        @media only screen and (max-width: 991px) {
+            padding: 0 !important;
+            margin-top: 0;
+        }
+        .special-food-bg {
+            position: absolute;
+            width: calc(50% + 90px);
+            top: 0;
+            left: 0;
+            height: 100%;
+            @media only screen and (max-width: 1199px) {
+                width: calc(50% + 40px);
+            }
+            @media only screen and (max-width: 991px) {
+                display: none;
+            }
+        }
+        .special-food-content-inner {
+            border: 10px solid $white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            position: relative;
+            z-index: 1;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
+            @media only screen and (max-width: 991px) {
+                border: 0px solid;
+            }
+            .special-food-content-text {
+                background-color: $white;
+                width: 50%;
+                text-align: center;
+                padding: 25px 65px 40px;
+                @media only screen and (max-width: 1199px) {
+                    padding: 20px 30px 30px;
+                }
+                @media only screen and (max-width: 991px) {
+                    width: 100%;
+                    padding: 50px 50px 60px;
+                }
+                @media only screen and (max-width: 575px) {
+                    padding: 40px 15px 50px;
+                }
+                .food-title {
+                    font-size: 32px;
+                    font-family: $font_heading2;
+                    font-weight: 700;
+                    line-height: 1.18em;
+                    margin-bottom: 15px;
+                    @media only screen and (max-width: 420px) {
+                        font-size: 26px;
+                    }
+                }
+                .food-price {
+                    font-size: 32px;
+                    font-weight: 600;
+                    font-family: $font_heading2;
+                    color: $color__primary;
+                    font-style: italic;
+                    margin-bottom: 30px;
+                    @media only screen and (max-width: 991px) {
+                        font-size: 24px;
+                    }
+                    @media only screen and (max-width: 420px) {
+                        font-size: 20px;
+                    }
+                    sup {
+                        font-size: 50%;
+                        top: -12px;
+                    }
+                    > del {
+                        display: inline-block;
+                        color: #acacac;
+                        padding-right: 5px;
+                    }
+                }
+                .btn-group-default {
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}

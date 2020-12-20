@@ -1,0 +1,146 @@
+.user-register-block {
+    .user-register-area {
+        background-color: $white;
+        position: relative;
+        margin-top: 110px;
+        margin-bottom: 110px;
+        @media only screen and (max-width: 1199px) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .register-bg-left {
+            position: absolute;
+            width: 270px;
+            height: 100%;
+            top: 0;
+            left: 0;
+            @media only screen and (max-width: 1199px) {
+                width: 200px;
+            }
+            @media only screen and (max-width: 991px) {
+                width: 270px;
+            }
+            @media only screen and (max-width: 767px) {
+                display: none;
+            }
+        }
+    }
+    .reg-others-midea {
+        margin-top: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        @media only screen and (max-width: 767px) {
+            margin-top: 35px;
+        }
+        .text {
+            color: #000;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            padding-right: 20px;
+            @media only screen and (max-width: 420px) {
+                font-size: 12px;
+                padding-right: 15px;
+            }
+        }
+        .social-share {
+            margin-bottom: 0px;
+            padding-left: 0;
+            list-style: none;
+            > li {
+                display: inline-block;
+                margin: 0 1px;
+                > a {
+                    font-size: 12px;
+                    height: 26px;
+                    line-height: 27px;
+                    width: 26px;
+                    display: block;
+                    border-radius: 50%;
+                    background-color: $suva_grey;
+                    text-align: center; 
+                    color: $white;
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                    &.facebook {
+                        background-color: #3B5997;
+                    }
+                    &.twitter {
+                        background-color: #54ACED;
+                    }
+                    &.google-plus {
+                        background-color: #DB4D41;
+                    }
+                    &.linkedin {
+                        background-color: #0179B8;
+                    }
+                }
+            }
+        }
+    }
+    .form-content {
+        padding: 55px 30px 60px 370px;
+        @media only screen and (max-width: 1199px) {
+            padding: 55px 30px 60px 230px;
+        }
+        @media only screen and (max-width: 991px) {
+            padding: 55px 30px 60px 300px;
+        }
+        @media only screen and (max-width: 767px) {
+            padding: 40px 30px 45px;
+        }
+        @media only screen and (max-width: 420px) {
+            padding: 40px 15px 45px;
+        }
+        .form-heading {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 700;
+            @media only screen and (max-width: 420px) {
+                font-size: 16px;
+            }
+        }
+        .form-controllar {
+            letter-spacing: 0.05em;
+            padding-top: 15px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        .form-btn-group {
+            padding-top: 15px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            .forget-pass {
+                font-size: 12px;
+                padding-left: 20px;
+                text-align: right;
+                line-height: 1.4em;
+                > a {
+                    color: $color__primary;
+                    &:hover,
+                    &:focus {
+                        color: $black;
+                    }
+                }
+            }
+        }
+        .btn-default {
+            letter-spacing: 0.175em;
+            padding: 14px 25px;
+            @media only screen and (max-width: 480px) {
+                padding: 12px 20px;
+            }
+        }
+    }
+}

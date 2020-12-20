@@ -1,0 +1,153 @@
+.opening-hours-block {
+    &:before {
+        opacity: 0.7;
+    }
+    .section-title.style-one {
+        padding-bottom: 15px;
+        @media only screen and (max-width: 1199px) {
+            padding-bottom: 10px;
+        }
+    }
+    &.style-two {
+        position: relative;
+        text-align: center;
+        @media only screen and (max-width: 991px) {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        > .opening-hours-bg {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            @media only screen and (max-width: 991px) {
+                position: relative;
+                height: 500px;
+                width: 100%;
+                margin-bottom: 100px;
+            }
+            @media only screen and (max-width: 480px) {
+                height: 350px;
+            }
+        }
+        .opening-time-group {
+            text-transform: uppercase;
+            margin-bottom: 50px;
+            @media only screen and (max-width: 991px) {
+                margin-bottom: 30px;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .title {
+                font-size: 18px;
+                font-weight: normal;
+                margin-bottom: 2px;
+                color: $color_text_main; 
+                font-family: $font_heading2;
+            }
+            .time {
+                font-size: 32px;
+                font-family: $font_heading2;
+                color: $black;
+                font-weight: normal;
+                margin-bottom: 0;
+                line-height: 1em;
+                @media only screen and (max-width: 767px) {
+                    font-size: 22px;
+                }
+                > sup {
+                    font-size: 50%;
+                    top: -6px;
+                    font-family: $font_heading;
+                }
+            }
+        }
+    }
+    &.style-three {
+        margin-bottom: 20px;
+        position: relative;
+        .element-group > .element {
+            &.one {
+                bottom: -80px;
+                left: 0;
+                z-index: 2;
+                @media only screen and (max-width: 1700px) {
+                    display: none;
+                }
+            }
+        }
+        .open-hours-item {
+            .icon {
+                margin-bottom: 15px;
+            }
+            .info {
+                .eating-time {
+                    font-family: $font_heading;
+                    font-size: 18px;
+                    font-weight: 600;
+                    > sup {
+                        top: -5px;
+                    }
+                }
+                .title {
+                    font-size: 32px;
+                    font-weight: 700;
+                    font-family: $font_heading2;
+                    text-transform: capitalize;
+                    color: $white;
+                    letter-spacing: normal;
+                    font-style: italic;
+                    margin-bottom: 10px;
+                    @media only screen and (max-width: 480px) {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+.open-hours-item {
+    text-align: center;
+    margin-bottom: 40px;
+    .icon {
+        min-height: 70px;
+        margin-bottom: 30px;
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            margin-bottom: 25px;
+        }
+        > span {
+            font-size: 70px;
+            color: $color__primary;
+        }
+    }
+    .info {
+        .title {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #bababa;
+            font-weight: 500;
+            letter-spacing: 0.18em;
+            margin-bottom: 5px;
+        }
+        .eating-time {
+            font-size: 32px;
+            color: $white;
+            margin-bottom: 0px;
+            font-family: $font_heading2;
+            font-weight: normal;
+            @media only screen and (min-width: 992px) and (max-width: 1199px) {
+                font-size: 24px;
+            }
+            @media only screen and (max-width: 1199px) {
+               font-size: 24px;
+            }
+            > sup {
+                text-transform: uppercase;
+                top: -7px;
+                font-size: 65%;
+            }
+        }
+    }
+}

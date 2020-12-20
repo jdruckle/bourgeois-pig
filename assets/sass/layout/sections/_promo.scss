@@ -1,0 +1,160 @@
+
+.promo-content {
+    .promo-title {
+        font-size: 60px;
+        color: $white;
+        font-weight: 700;
+        line-height: 1.2em;
+        margin-bottom: 20px;
+        margin-top: -16px;
+        font-family: $font_heading2;
+        @media only screen and (max-width: 1199px){
+            font-size: 48px;
+            margin-top: -12px;
+        }
+        @media only screen and (max-width: 991px){
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+        @media only screen and (max-width: 767px){
+            font-size: 36px;
+            margin-top: -9px;
+        }
+        @media only screen and (max-width: 480px){
+            font-size: 32px;
+        }
+        > span {
+            color: $color__primary;
+        }
+    }
+    .promo-subtitle {
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        line-height: 1.6em;
+        margin-bottom: 50px;
+        @media only screen and (max-width: 991px){
+            font-size: 15px;
+            margin-bottom: 40px;
+        }
+        @media only screen and (max-width: 480px){
+            font-size: 14px;
+        }
+    }
+    .btn.btn-default {
+        &:hover,
+        &:focus {
+            background-color: $white;
+            color: $color__primary;
+        }
+    }
+    .video-btn-area {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: -5px;
+        @media only screen and (max-width: 767px) {
+            padding-top: 0;  
+        }
+        .video-btn {
+            background-color: rgba($white,0.1);
+            &:after {
+                background-color: rgba($white,0.05);
+            }
+        }
+        > .text {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $color__primary;
+            letter-spacing: 0.2em;
+            padding-top: 35px;
+            @media only screen and (max-width: 767px){
+                padding-top: 15px;
+            }
+        }
+    }
+}
+
+.promo-block {
+    position: relative;
+    .element-group > .element {
+        &.one {
+            bottom: -170px;
+            left: 0;
+            @media only screen and (max-width: 1199px) {
+                display: none;
+            }
+        }
+    }
+    &.style-two {
+        background-position: top center;
+        .promo-content {
+            margin-top: -9px;
+            .promo-subtitle {
+                font-size: 74px;
+                font-weight: lighter;
+                letter-spacing: 0;
+                line-height: 1em;
+                margin-bottom: 15px;
+                @media only screen and (max-width: 991px) {
+                    font-size: 52px;
+                }
+                @media only screen and (max-width: 575px) {
+                    font-size: 44px;
+                }
+                @media only screen and (max-width: 420px) {
+                    font-size: 32px;
+                }
+            }
+            .promo-title {
+                font-size: 170px;
+                font-weight: 600;
+                font-family: $font_heading;
+                text-transform: uppercase;
+                color: $color__primary;
+                line-height: 0.85em;
+                letter-spacing: -0.05em;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                @media only screen and (max-width: 991px) {
+                    font-size: 130px;
+                }
+                @media only screen and (max-width: 575px) {
+                    font-size: 112px;
+                }
+                @media only screen and (max-width: 420px) {
+                    font-size: 80px;
+                }
+                > strong {
+                    font-weight: 500;
+                    font-size: 48%;
+                    line-height: 0.76em;
+                    display: block;
+                    word-wrap: break-word;
+                    white-space: pre-wrap;
+                    text-align: left;
+                    padding-left: 10px;
+                    letter-spacing: 0.07em;
+                    > span {
+                        display: block;
+                        letter-spacing: -0.05em;
+                        color: $color__heading;
+                    }
+                }
+            }
+            .btn-group-default {
+                margin-top: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,463 @@
+.reservation-block {
+    .form-group {
+        margin-bottom: 30px;
+        @media only screen and (max-width: 991px) {
+            margin-bottom: 20px;
+        }
+    }
+    .form-controllar,
+    .select-custom {
+        &:focus,
+        &:active {
+            border-color: $color__primary !important;
+        }
+    }
+    &.style-one {
+        background-position: top right;
+        position: relative;
+        background-color: #EFEFF1;
+        .bg-image-right {
+            position: absolute;
+            z-index: 0;
+            background-repeat: no-repeat;
+            background-position: right center;
+            width: 50%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            @media only screen and (max-width: 767px) {
+                width: 100%;
+            }
+        }
+        .element-group > .element {
+            @media only screen and (max-width: 767px) {
+                display: none;
+            }
+            &.one {
+                top: 0;
+                left: calc(50% - 725px);
+                z-index: 2;
+                -webkit-animation: linear bt-leftRight-20 2.5s infinite;
+                        animation: linear bt-leftRight-20 2.5s infinite;
+                @media only screen and (max-width: 1199px) {
+                    left: calc(50% - 660px);
+                }
+            }
+            &.two {
+                bottom: 20px;
+            }
+            &.three {
+                top: 55px;
+                left: calc(50% - 725px);
+                z-index: 2;
+                -webkit-animation: linear bt-bottomTop-40 3.5s infinite;
+                        animation: linear bt-bottomTop-40 3.5s infinite;
+                @media only screen and (max-width: 1199px) {
+                    left: calc(50% - 650px);
+                }
+            }
+        }
+        .reservation-form-area {
+            background-color: $white;
+            box-shadow: 1px 1px 8px rgba($black,0.1);
+            padding: 40px 70px 60px;
+            @media only screen and (max-width:1199px) {
+                padding: 30px 30px 50px;
+            }
+            @media only screen and (max-width:575px) {
+                padding: 30px 15px 50px;
+            }
+            .btn-default {
+                margin-top: 25px;
+            }
+        }
+        .form-group {
+            margin-bottom: 35px;
+            @media only screen and (max-width:1199px) {
+                margin-bottom: 25px;
+            }
+        }
+        .form-controllar {
+            padding: 2px 0 5px;
+        }
+    }
+    &.style-two,
+    &.style-three {
+        .form-controllar::-webkit-input-placeholder {
+            color: #ffffff;
+            opacity: 1;
+        }
+        .form-controllar:-moz-placeholder {
+            color: #ffffff;
+            opacity: 1;
+        }
+
+        .form-controllar::-moz-placeholder {
+            color: #ffffff;
+            opacity: 1;
+        }
+
+        .form-controllar:-ms-input-placeholder {
+            color: #ffffff;
+            opacity: 1;
+        }
+        .form-controllar,
+        .select-custom {
+            &:focus,
+            &:active {
+                color: $white;
+            }
+        }
+        .date:after {
+            color: $white;
+            opacity: 0.7;
+        }
+        .select-custom {
+            .current {
+                color: $white;
+                opacity: 1;
+            }
+            .list {
+                color: $color__heading;
+            }
+            &:after {
+                color: $white;
+                top: 1px;
+            }
+        } 
+    }
+    &.style-two {
+        .form-controllar,
+        .select-custom {
+            border: 2px solid $color__border-two;
+            border-radius: 40px;
+            padding: 7px 30px;
+            color: $white;
+            font-size: 14px;
+            @media only screen and (max-width: 991px) {
+                padding: 7px 20px;
+            }
+        }
+        .date:after {
+            right: 27px;
+            @media only screen and (max-width: 991px) {
+                right: 18px;
+            }
+        }
+        .select-custom {
+            padding: 0 30px;
+            line-height: 48px;
+            @media only screen and (max-width: 575px) {
+                padding: 0px 20px;
+            }
+            &:after {
+                right: 25px;
+                @media only screen and (max-width: 991px) {
+                    right: 17px;
+                }
+            }
+        }
+        textarea {
+            min-height: 90px;
+            border-radius: 25px !important;
+        }
+    }
+    &.style-three,
+    &.style-five {
+        &:before {
+            opacity: 0.8;
+        }
+        .form-group {
+            margin-bottom: 40px;
+            @media only screen and (max-width:575px) {
+                margin-bottom: 25px;
+            }
+        }
+        .form-controllar,
+        .select-custom {
+            border-color: $suva_grey;
+            &:focus {
+                border-color: $color__primary;
+            }
+        }
+        .form-controllar {
+            padding: 2px 0 5px;
+            font-size: 15px;
+        }
+        .btn-default {
+            margin-top: 25px;
+        }
+        .select-custom {
+            font-size: 15px;
+            line-height: 50px;
+            .current {
+                color: $white;
+            }
+        }
+    }
+    &.style-three,
+    &.style-four {
+        .res-opening-time {
+            height: 100%;
+            text-align: center;
+            color: $white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            padding: 70px 15px;
+            @media only screen and (max-width: 991px) {
+                margin-top: 100px;
+                height: auto;
+            }
+            .icon-divider {
+                font-size: 60px;
+                line-height: 1em;
+                color: $color__primary;
+                margin-bottom: 55px;
+                padding-top: 20px;
+                @media only screen and (max-width: 991px) {
+                    margin-bottom: 40px;
+                    padding-top: 10px;
+                }
+            }
+            .divider {
+                padding: 30px 0 50px;
+                @media only screen and (max-width: 991px) {
+                    padding: 15px 0 35px;
+                }
+            }
+            .opening-time-group {
+                margin-bottom: 25px;
+            }
+            .opening-time-group,
+            .contact-info {
+                text-transform: uppercase;
+                .title {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: $suva_grey;
+                    margin-bottom: 5px;
+                    @media only screen and (max-width: 575px) {
+                        font-size: 14px;
+                    }
+                }
+                .contact-no,
+                .time {
+                    font-size: 24px;
+                    font-family: $font_heading2;
+                    color: $white;
+                    font-weight: normal;
+                    margin-bottom: 0;
+                    @media only screen and (max-width: 767px) {
+                        font-size: 22px;
+                    }
+                    > sup {
+                        font-size: 60%;
+                        top: -6px;
+                        font-family: $font_heading;
+                    }
+                }
+            }
+        }
+    }
+    &.style-three {
+        .section-title.section-default-two {
+            margin-bottom: 25px;
+        }
+        .form-controllar {
+            color: $white;
+        }
+        .res-opening-time {
+            background-color: rgba($black,0.5);
+        }
+    }
+    &.style-four {
+        position: relative;
+        .element-group > .element {
+            &.one {
+                top: -75px;
+                left: 0;
+                @media only screen and (max-width: 991px) {
+                    display: none;
+                }
+            }
+            &.two {
+                bottom: 20px;
+                left: 20px;
+            }
+        }
+        .res-opening-time {
+            padding: 0;
+            position: relative;
+            @media only screen and (max-width: 991px) {
+                margin-top: 0;
+                margin-bottom: 100px;
+            }
+            .res-right-img {
+                position: absolute;
+                right: -300px;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                z-index: 0;
+                @media only screen and (max-width: 1800px) {
+                    display: none;
+                }
+            }
+        }
+        .res-opening-time-inner {
+            background-color: #222222;
+            display: block;
+            padding: 90px 20px;
+            position: relative;
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            &:before,
+            &:after {
+                position: absolute;
+                width: 100%;
+                height: 120px;
+                content: "";
+                background-repeat: repeat-x;
+                z-index: 1;
+                opacity: 0.05;
+                left: 0;
+            }
+            &:before {
+                top: 0;
+                background-position: top center;
+                background-image: url('../images/bg/re-pattent-top.png');
+            }
+            &:after {
+                background-position: bottom center;
+                background-image: url('../images/bg/re-pattent-bottom.png');
+                bottom: 0;
+            }
+            .divider {
+                padding: 20px 0 60px;
+                @media only screen and (max-width: 991px) {
+                    padding-bottom: 30px;
+                }
+                @media only screen and (max-width: 575px) {
+                    padding-bottom: 15px;
+                }
+            }
+            .opening-time-group {
+                + .divider {
+                    padding-top: 32px;
+                }
+            }
+            .contact-info {
+                margin-top: -10px;
+                @media only screen and (max-width: 991px) {
+                    margin-top: 0;
+                }
+                @media only screen and (max-width: 575px) {
+                    margin-top: 20px; 
+                }
+            }
+        }
+        .reservation-form .btn-default {
+            margin-top: 30px;
+            &:hover,
+            &:focus {
+                background-color: $black;
+                color: $white;
+            }
+        }
+    }
+    &.style-five {
+        position: relative;
+        > .res-bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: calc(50% - 15px);
+            height: 100%;
+            @media only screen and (max-width:991px) {
+               display: none;
+            }
+        }
+        .reservation-form {
+            padding-top: 10px;
+            @media only screen and (max-width:1199px) {
+                padding-top: 0;
+            }
+        }
+        .form-controllar {
+            padding: 2px 0 5px;
+        }
+        .btn-default {
+            margin-top: 20px;
+        }
+        .select-custom {
+            line-height: 50px;
+            .current {
+                color: #666666;
+            }
+        }
+        &.full-width-style {
+            > .res-bg {
+                width: 50%;
+                @media only screen and (max-width: 991px) {
+                    position: relative;
+                    height: 500px;
+                    width: 100%;
+                    margin-bottom: 0px;
+                    display: block;
+                }
+                @media only screen and (max-width: 480px) {
+                    height: 350px;
+                }
+            }
+            .reservation-form-area {
+                padding-left: 55px;
+                padding-right: 55px;
+                @media only screen and (max-width: 575px) {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+                @media only screen and (max-width: 480px) {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
+                .section-title {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    &.reservation-home-one {
+        &:before {
+            opacity: 0.7;
+        } 
+        .res-opening-time {
+            background-color: rgba($black, 0.8);
+        }
+    }
+    .date {
+        position: relative;
+        &:after {
+            content: '\f073';
+            font-family: $font-awesome-free;
+            display: block;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            color: #8F8F8F;
+            -webkit-transition: all 0.15s ease-in-out;
+            transition: all 0.15s ease-in-out;
+            font-weight: 800;
+            -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+        }
+    }
+}
