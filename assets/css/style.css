@@ -9,8 +9,8 @@ Version: 1.0
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Typography 
-    [ ## Heading ] 
+# Typography
+    [ ## Heading ]
     [ ## Others Typography ]
 # Elements
     [ ## Font Size ]
@@ -36,7 +36,7 @@ Version: 1.0
 	[ ## Captions ]
 	[ ## Galleries ]
 	[ ## media ]
-# Modules 
+# Modules
 	[ ## Accessibility ]
 	[ ## Alignments ]
 	[ ## Clearings ]
@@ -27387,4 +27387,8 @@ input[type="checkbox"]::-ms-check {
 }
 .copyright-text a:hover {
   color: black;
+}
+
+.food-info-content .read-more {
+  display: none !important;
 }
