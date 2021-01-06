@@ -1,7 +1,14 @@
 .piglogo{
-  height: 20vh;
+  min-height: 100px;
+  max-height: 200px;
+  width:auto;
 }
 
 #chefblock{
   background-color: #772F00;
 }
+
+  div.intro-socail-share div.socail-share a span.fab,
+  .navigation .mainmenu > li > a {
+    color: white !important;
+  }
