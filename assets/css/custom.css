@@ -10,5 +10,9 @@
 
   div.intro-socail-share div.socail-share a span.fab,
   .navigation .mainmenu > li > a {
-    color: white !important;
+    color: #fff !important;
+  }
+
+  div.hamburger-menus > span {
+    background-color: #fff !important;
   }
