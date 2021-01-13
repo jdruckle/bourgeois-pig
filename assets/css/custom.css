@@ -16,3 +16,7 @@
   div.hamburger-menus > span {
     background-color: #fff !important;
   }
+
+  .header-style-one .site-branding img {
+    max-height: 15px;
+  }
