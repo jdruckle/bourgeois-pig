@@ -13088,20 +13088,6 @@ body.sidemenu-active #pp-nav.right {
 .chef-item .chef-info .chef-name a:hover, .chef-item .chef-info .chef-name a:focus {
   color: #c51c23;
 }
-.chef-item:hover .chef-thumb:before {
-  opacity: 0.9;
-  visibility: visible;
-}
-.chef-item:hover .social-status-area {
-  border-color: transparent;
-}
-.chef-item:hover .social-status-area .social-status > a {
-  opacity: 1;
-  visibility: visible;
-}
-.chef-item:hover .social-status-area .social-status > a:nth-child(2n) {
-  margin-top: 0;
-}
 
 /*--------------------------------------------------------------
     [ ## Food Menu ]
