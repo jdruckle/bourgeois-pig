@@ -4578,7 +4578,7 @@ input::-moz-focus-inner {
   background-color: black;
 }
 .btn-default.btn-black:focus, .btn-default.btn-black:hover {
-  background-color: #c51c23;
+  background-color: hsl(310, 100%, 50%);
 }
 .btn-default.btn-white:focus, .btn-default.btn-white:hover {
   background-color: white;

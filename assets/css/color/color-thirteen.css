@@ -231,7 +231,8 @@
 .burger-feature-block .single-burger-feature .div-circle::after,
 .site-footer.footer-style-twelve .site-footer-content .footer-social li a:hover,
 .food-menu-block.home-foodmenu-five .single-food-ice .ice-details .view-more:before,
-.site-header.header-style-fifteen .header-card-area.header-card-small > a { 
+.site-header.header-style-fifteen .header-card-area.header-card-small > a,
+.preloader-icon span { 
     background-color: #C35194;
 }
 
