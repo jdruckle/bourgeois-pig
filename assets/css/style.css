@@ -13462,7 +13462,7 @@ body.sidemenu-active #pp-nav.right {
 }
 .food-grid-item .food-title a:hover,
 .food-grid-item .food-title a:focus {
-  color: #c51c23;
+  color: #c35194;
 }
 .food-grid-item .food-cart-tools .add-bookmark {
   width: 38px;
@@ -13475,7 +13475,7 @@ body.sidemenu-active #pp-nav.right {
   line-height: 42px;
 }
 .food-grid-item .food-cart-tools .add-bookmark:hover, .food-grid-item .food-cart-tools .add-bookmark:focus {
-  background-color: #c51c23;
+  background-color: #c35194;
 }
 .food-grid-item.grid-style-one {
   text-align: center;
@@ -13497,7 +13497,7 @@ body.sidemenu-active #pp-nav.right {
   line-height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #c51c23;
+  background-color: #c35194;
   color: white;
   position: absolute;
   right: 55px;
@@ -13512,7 +13512,7 @@ body.sidemenu-active #pp-nav.right {
 .food-grid-item.grid-style-one .food-title {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: #c51c23;
+  color: #c35194;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .food-grid-item.grid-style-one .food-title {
@@ -13618,7 +13618,7 @@ body.sidemenu-active #pp-nav.right {
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  border: 2px dashed #c51c23;
+  border: 2px dashed #c35194;
   top: 0;
   left: 0;
 }
@@ -13738,7 +13738,7 @@ body.sidemenu-active #pp-nav.right {
   font-size: 24px;
   font-weight: bold;
   font-style: italic;
-  color: #c51c23;
+  color: #c35194;
   font-family: "Playfair Display", serif;
 }
 .food-grid-item.grid-style-three .food-price > sup {
@@ -13810,7 +13810,7 @@ body.sidemenu-active #pp-nav.right {
   }
 }
 .food-grid-item.grid-style-four .food-info .food-title:hover {
-  color: #c51c23;
+  color: #c35194;
 }
 .food-grid-item.grid-style-four .food-info .read-more {
   font-size: 20px;
@@ -13833,7 +13833,7 @@ body.sidemenu-active #pp-nav.right {
   }
 }
 .food-grid-item.grid-style-four .food-info .read-more:hover {
-  color: #c51c23;
+  color: #c35194;
 }
 .food-grid-item.grid-style-five {
   background-color: #f6f6f6;
@@ -13880,7 +13880,7 @@ body.sidemenu-active #pp-nav.right {
 .food-grid-item.grid-style-five .food-price {
   font-size: 18px;
   font-weight: 600;
-  color: #c51c23;
+  color: #c35194;
 }
 .food-grid-item.grid-style-five .food-price > sup {
   top: -3px;
@@ -16212,7 +16212,7 @@ body.sidemenu-active #pp-nav.right {
   line-height: 1.3em;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #c51c23;
+  color: #c35194;
   position: relative;
   margin-bottom: 40px;
   padding-bottom: 35px;
@@ -24555,7 +24555,7 @@ body.sidemenu-active #pp-nav.right {
   color: black;
 }
 .page-title-area.style-two .breadcrumb .breadcrumb-item > a {
-  color: #c51c23;
+  color: #c35194;
 }
 .page-title-area.style-two .breadcrumb .breadcrumb-item > a:hover, .page-title-area.style-two .breadcrumb .breadcrumb-item > a:focus {
   color: black;
@@ -24581,7 +24581,7 @@ body.sidemenu-active #pp-nav.right {
   color: white;
 }
 .breadcrumb .breadcrumb-item > a:hover, .breadcrumb .breadcrumb-item > a:focus {
-  color: #c51c23;
+  color: #c35194;
 }
 .breadcrumb .breadcrumb-item:before {
   font-size: 10px;
@@ -24598,7 +24598,7 @@ body.sidemenu-active #pp-nav.right {
 .breadcrumb .breadcrumb-item:first-child:before {
   content: "\e902";
   padding: 0 7px 0 0px;
-  color: #c51c23;
+  color: #c35194;
 }
 @media only screen and (max-width: 575px) {
   .breadcrumb .breadcrumb-item:first-child:before {
@@ -24750,7 +24750,7 @@ body.sidemenu-active #pp-nav.right {
 .comments-area .comments-title > span::before {
   height: 1px;
   width: 60px;
-  background-color: #c51c23;
+  background-color: #c35194;
   position: absolute;
   content: "";
   right: -60px;
@@ -24787,7 +24787,7 @@ body.sidemenu-active #pp-nav.right {
   margin-top: 5px;
 }
 .comments-area .date [class*="fa-"] {
-  color: #c51c23;
+  color: #c35194;
   display: inline-block;
   padding-right: 5px;
 }
@@ -24876,7 +24876,7 @@ body.sidemenu-active #pp-nav.right {
 .comment-respond .comment-reply-title > span::before {
   height: 1px;
   width: 60px;
-  background-color: #c51c23;
+  background-color: #c35194;
   position: absolute;
   content: "";
   right: -60px;
@@ -24925,7 +24925,7 @@ body.sidemenu-active #pp-nav.right {
 }
 .comment-respond .form-control:focus {
   color: black;
-  border-bottom-color: #c51c23 !important;
+  border-bottom-color: #c35194 !important;
 }
 .comment-respond textarea {
   min-height: 80px;
@@ -24979,9 +24979,9 @@ body.sidemenu-active #pp-nav.right {
   display: inline-block;
   background-color: transparent;
   border-radius: 50%;
-  color: #c51c23;
+  color: #c35194;
   transition: all 0.35s ease-in-out;
-  border: 2px solid #c51c23;
+  border: 2px solid #c35194;
   width: 38px;
   height: 38px;
   line-height: 35px;
@@ -24990,7 +24990,7 @@ body.sidemenu-active #pp-nav.right {
 .comment-reply-link:hover {
   background: #c51c23;
   color: white;
-  border-color: #c51c23;
+  border-color: #c35194;
 }
 
 input[type="checkbox"]::-ms-check {
