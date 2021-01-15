@@ -132,13 +132,13 @@
                 var stickyMenu = $('.site-header').clone().appendTo('#sticky-header');
                 $(window).on('scroll', function () {
                     var w = $(window).width();
-                    if (w > 1199) {
+                    // if (w > 1199) {
                         if ($(this).scrollTop() > 350) {
                             $('#sticky-header').slideDown(500);
                         } else {
                             $('#sticky-header').slideUp(500);
                         }
-                    }
+                    // }
                 });
             }
         },
