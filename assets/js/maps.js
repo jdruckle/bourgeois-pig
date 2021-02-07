@@ -3,7 +3,7 @@
 	if ($('#contact_map').length > 0) {
 		google.maps.event.addDomListener(window, 'load', init);
         function init() {
-            var latLng = {lat: 40.839500, lng: -74.096002};
+            var latLng = {lat: 42.848950, lng: -106.325630};
             var mapOptions = {
 			scrollwheel: false,
 			zoom: 12,
@@ -108,7 +108,7 @@
 				content: contentString
             });
             var marker = new google.maps.Marker({
-				position: {lat: 40.835957, lng: -74.002293},
+				position: {lat: 42.848950, lng: -106.325630},
 				map: map,
 				icon: {
 					url: "./assets/images/icon/map4.png",
