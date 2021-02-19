@@ -20,3 +20,20 @@
   .header-style-one .site-branding img {
     max-height: 15px;
   }
+
+  /* Footer social hover */
+.bt-location-widget .widget-content .social-status a:hover {
+  color: #C35194 !important;
+  transition: 0.3s;
+}
+
+/* body .socail-share,
+body {
+  color: #fff !important;
+} */
+
+/* Navbar social hover */
+.socail-share a span:hover {
+  color: #C35194 !important;
+  transition: 0.3s;
+}
