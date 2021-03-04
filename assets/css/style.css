@@ -24478,7 +24478,7 @@ body.sidemenu-active #pp-nav.right {
   width: 100%;
   left: 0;
   top: 0;
-  background-image: linear-gradient(to bottom, black, transparent);
+  background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.5));
   opacity: 0.9;
   height: 100%;
 }
