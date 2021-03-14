@@ -108,9 +108,14 @@ html {
   font-size: 100%;
 }
 
+@font-face{
+  font-family: test;
+  src: url(assets/webfonts/Chango-Regular.ttf);
+}
+
 body {
   background-color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 1.6em;
@@ -122,7 +127,7 @@ body {
 */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Poppins", sans-serif;
+  font-family: "Playfair Display", serif;
   line-height: 1.25em;
   color: #181818;
   font-weight: 600;
@@ -24478,7 +24483,7 @@ body.sidemenu-active #pp-nav.right {
   width: 100%;
   left: 0;
   top: 0;
-  background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.8));
   opacity: 0.9;
   height: 100%;
 }
