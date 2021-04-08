@@ -5499,7 +5499,7 @@ object {
 }
 @media only screen and (max-width: 575px) {
   .intro-element .intro-socail-share .share-alt {
-    display: block;
+    display: none;
     width: 35px;
     height: 35px;
     line-height: 35px;
