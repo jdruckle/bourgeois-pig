@@ -74,7 +74,7 @@ iframe {
   position: absolute;
   background-color: #fff;
   width: 17px;
-  height: 500px;
+  height: 750px;
   left: 50px;
   top: -44px;
   content: "";
@@ -82,12 +82,12 @@ iframe {
 }
 @media only screen and (max-width: 1199px){
   .address-cover-main::before {
-    height: 525px;
+    height: 825px;
   }
 }
 @media only screen and (max-width: 991px){
   .address-cover-main::before {
-    height: 640px !important;
+    display: none !important;
   }
 }
 .address-box {
