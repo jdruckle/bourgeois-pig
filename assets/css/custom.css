@@ -62,9 +62,13 @@ iframe {
 }
 .contact-part {
   background-color: #F8BBD0;
+  color: #000;
   padding: 44px;
   position: relative;
   margin-top: -159px;
+}
+.contact-part span{
+  color: #000;
 }
 .address-cover-main {
   padding-left: 32%;
@@ -139,7 +143,12 @@ iframe {
 19. Contact Page Style End
 -------------------------------------------*/
 
+.header-top-area .socail-status a {
+  color: #fff;
+  padding: 0 8px 0 8px;
+}
 
 html {
   scroll-behavior: smooth;
 }
+
