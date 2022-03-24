@@ -533,7 +533,7 @@ h4 a:hover {
   }
 }
 .section-title.style-two.text-white .title-sub {
-  color: #bababa !important;
+  color: #000000 !important;
 }
 .section-title.style-three {
   margin-bottom: 55px;
@@ -543,7 +543,7 @@ h4 a:hover {
   font-weight: 700;
 }
 .section-title.style-three.text-white .title-sub {
-  color: #bababa !important;
+  color: #000000 !important;
 }
 .section-title.style-three .title-main {
   text-transform: uppercase;
@@ -2374,10 +2374,10 @@ img {
 }
 
 .text-white {
-  color: white;
+  color: black;
 }
 .text-white h2, .text-white h3, .text-white h4, .text-white h5 {
-  color: white !important;
+  color: black !important;
 }
 
 /*-------------------------------------------------
@@ -2711,6 +2711,7 @@ img {
 .bg-overlay {
   position: relative;
 }
+
 .bg-overlay:before {
   content: "";
   position: absolute;
@@ -9654,7 +9655,7 @@ body.sidemenu-active #pp-nav.right {
   font-size: 80px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: white;
+  color: #000000;
   line-height: 1.12em;
   margin-bottom: 20px;
 }
@@ -9760,7 +9761,7 @@ body.sidemenu-active #pp-nav.right {
   }
 }
 .main-slider.style-one {
-  height: 960px;
+  height: 100vh;
 }
 @media only screen and (max-width: 1199px) {
   .main-slider.style-one {
